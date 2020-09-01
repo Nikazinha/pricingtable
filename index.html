@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Ubuntu&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <img class="top_img" src="images/bg-top.svg" alt="bg.top">
+
+  <!-- Title and Toggle button -->
+
+  <h1 class="title"> Our Pricing </h1>
+  <div class="row row_toggle_button">
+    <h4> Monthly </h4>
+    <label class="switch">
+      <input type="checkbox">
+      <span class="slider round"></span>
+    </label>
+    <h4> Annually </h4>
+  </div>
+
+
+  <!-- Pricing Cards -->
+
+  <div class="row row_space">
+
+    <div class="pricing_collum col-lg-4 col-sm-12">
+
+      <div class="card normal_card_1">
+        <div class="card-header">
+          <h3 class="card_title ">Basic</h3>
+        </div>
+        <div class="card-body">
+          <span class="price_tag price_month1 price_year1"> &dollar;19.99 </span>
+          <p>500 GB Storage</p>
+          <p>2 Users Allowed</p>
+          <p>Send up to 3 GB</p>
+          <button type="button" class="btn btn-lg normal-buttom"> LEARN MORE </button>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="pricing_collum col-lg-4 col-sm-12">
+      <div class="card middle_card ">
+        <div class="card-header">
+          <h3 class="card_title card_title_middle">Professional</h3>
+        </div>
+        <div class="card-body">
+          <span class="price_tag price_month2 price_year2"> &dollar;24.99 </span>
+          <p class="p_middle ">1 TB Storage</p>
+          <p class="p_middle ">5 Users Allowed</p>
+          <p class="p_middle ">Send up to 10 GB</p>
+          <button type="button" class="btn btn-lg btn-middle"> LEARN MORE </button>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="pricing_collum col-lg-4 col-sm-12">
+      <div class="card normal_card_2">
+        <div class="card-header">
+          <h3 class="card_title ">Master</h3>
+        </div>
+        <div class="card-body">
+          <span class="price_tag price_month3 price_year3"> &dollar;39.99 </span>
+          <p>2 TB Storage</p>
+          <p>10 Users Allowed</p>
+          <p>Send up to 20 GB</p>
+          <button type="button" class="btn btn-lg normal-buttom"> LEARN MORE </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <img class="bottom_img" src="images/bg-bottom.svg" alt="bg_bottom">
+
+  <!-- Footer -->
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+
+  <!-- JQuery e JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+
+</body>
+
+</html>

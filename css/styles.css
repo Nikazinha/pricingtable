@@ -1,0 +1,228 @@
+body{
+  font-size: 15px;
+  text-align: center;
+  background-color: #F6F6FE;
+  font-family: Montserrat;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+a {
+  color: #3E52A3;
+}
+
+h4{
+  text-align: center;
+  font-size: 13px;
+  margin-left:10px;
+  margin-right: 10px;
+  padding-top: 10px;
+}
+
+p{
+  border-style: solid;
+  border-width: thin;
+  border-top:0;
+  border-left: 0;
+  border-right: 0;
+  border-color: #F6F6FE;
+  font-weight: bold;
+  padding:10px 0;
+  font-size: 0.8rem;
+  color: #6D708D;
+}
+
+
+/* Class selectors */
+
+/****** Top section *******/
+
+.title{
+  margin: 50px;
+  color: #494C5F;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+/* Toggle Buttom */
+.row_toggle_button{
+  margin-left: 42%;
+  margin-bottom: 30px;
+}
+
+/* background images  */
+.top_img{
+  position: absolute;
+  right: 0;
+  top:0;
+  z-index: -1;
+}
+
+.bottom_img{
+  position: absolute;
+  left:0;
+  z-index: -1;
+}
+
+/******** CARDS ******/
+
+/* White/"norma"  Cards */
+
+.row_space{
+  width:70%;
+  margin-left: 15%;
+}
+
+.normal_card_1{
+border-radius:10px 0 0 10px;
+margin-top: 20px;
+margin-bottom: 2rem;
+}
+
+.normal_card_2{
+border-radius: 0 10px 10px 0;
+margin-bottom: 2rem;
+margin-top: 20px;
+}
+
+.card_title{
+  font-size: 1rem;
+  font-weight: 700;
+  color: #6D708D;
+}
+.card-header{
+  border: 0;
+  background-color: transparent;
+  padding-top: 30px;
+}
+
+.price_tag{
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.pricing_collum{
+  padding: 0;
+}
+
+/* Buttons */
+
+.btn{
+width: 90%;
+font-size: 0.7rem;
+font-weight: bold;
+margin-top: 20px;
+}
+
+.normal-buttom{
+  background-image: linear-gradient(to bottom right, #A3A8F0, #696FDD);
+  color: white;
+}
+
+
+.normal-buttom:hover{
+  background-image: linear-gradient(to bottom right, white,white);
+  color:#696FDD;
+  border-color: #696FDD;
+}
+
+/* Middle Card - The purple one */
+.middle_card{
+  background-image: linear-gradient(to bottom right, #A3A8F0, #696FDD);
+  color: white;
+  height: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.card_title_middle{
+  color: white;
+  padding-top: 20px;
+}
+
+.p_middle{
+  color: white;
+}
+
+.btn-middle{
+background-color: white;
+color: #696FDD;
+}
+
+.btn-middle:hover{
+  background-color: transparent;
+color: white;
+border-color: white;
+}
+
+
+/* Footer */
+.attribution{
+  margin-top: 50px;
+}
+
+
+/******* For the TOGGLE BUTTOM *******/
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #696FDD;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #A3A8F0;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #696FDD;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
